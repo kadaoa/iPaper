@@ -7,53 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180590E523A66BB000F2E78D /* PaperCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180590E423A66BB000F2E78D /* PaperCardView.swift */; };
 		18096CD6238B6FCC006CE363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18096CD5238B6FCC006CE363 /* AppDelegate.swift */; };
 		18096CD8238B6FCC006CE363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18096CD7238B6FCC006CE363 /* SceneDelegate.swift */; };
 		18096CDA238B6FCC006CE363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18096CD9238B6FCC006CE363 /* ContentView.swift */; };
 		18096CDC238B6FCE006CE363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18096CDB238B6FCE006CE363 /* Assets.xcassets */; };
 		18096CDF238B6FCE006CE363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18096CDE238B6FCE006CE363 /* Preview Assets.xcassets */; };
-		18096CE2238B6FCF006CE363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18096CE0238B6FCF006CE363 /* LaunchScreen.storyboard */; };
 		18096CEA238B7571006CE363 /* AttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18096CE9238B7571006CE363 /* AttributeView.swift */; };
 		18096CEC238B7AB9006CE363 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18096CEB238B7AB9006CE363 /* PhotoView.swift */; };
+		181E38ED23AE367700B092E8 /* RightToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E38EC23AE367700B092E8 /* RightToolBarView.swift */; };
+		181E38EF23AE55DD00B092E8 /* OkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E38EE23AE55DD00B092E8 /* OkButtonView.swift */; };
+		181E38F123AE5ABC00B092E8 /* UserGuidePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E38F023AE5ABB00B092E8 /* UserGuidePageView.swift */; };
+		1821512523A5069F003DB8D9 /* EditTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821512423A5069F003DB8D9 /* EditTabView.swift */; };
 		1824FFD6239D1C8E00983DA4 /* NewPaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824FFD5239D1C8E00983DA4 /* NewPaperView.swift */; };
 		1824FFD8239D24F600983DA4 /* EditPaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824FFD7239D24F600983DA4 /* EditPaperView.swift */; };
 		1824FFDA239D26F700983DA4 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824FFD9239D26F700983DA4 /* EditView.swift */; };
 		1824FFDC239D27FB00983DA4 /* EditAttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824FFDB239D27FB00983DA4 /* EditAttributeView.swift */; };
+		184A3F2423A724330046D90E /* PaperDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 184A3F2223A724330046D90E /* PaperDataModel.xcdatamodeld */; };
 		1897E430239BB8E3001BC645 /* ConstValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E42F239BB8E3001BC645 /* ConstValues.swift */; };
 		1897E432239BD90D001BC645 /* PaperListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E431239BD90D001BC645 /* PaperListView.swift */; };
 		1897E434239BDA58001BC645 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E433239BDA58001BC645 /* Info.swift */; };
 		1897E436239BDDE7001BC645 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E435239BDDE7001BC645 /* TestData.swift */; };
 		1897E438239BE6BE001BC645 /* Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E437239BE6BE001BC645 /* Paper.swift */; };
 		1897E43A239BE9BC001BC645 /* PaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897E439239BE9BC001BC645 /* PaperView.swift */; };
+		18998EB523AF560E00451E9A /* PaperStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18998EB423AF560E00451E9A /* PaperStore.swift */; };
+		18998EB723AF905800451E9A /* PlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18998EB623AF905700451E9A /* PlaceHolderView.swift */; };
+		18998EB923AFAC5300451E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18998EB823AFAC5300451E9A /* LaunchScreen.storyboard */; };
 		18A9E856238D5835004B7A1F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9E855238D5835004B7A1F /* InfoView.swift */; };
 		18A9E858238D5C29004B7A1F /* interface.json in Resources */ = {isa = PBXBuildFile; fileRef = 18A9E857238D5C29004B7A1F /* interface.json */; };
 		18A9E85A238D5C9B004B7A1F /* ReadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9E859238D5C9B004B7A1F /* ReadJson.swift */; };
+		18E2213E23A8F6840007EE11 /* AddPaperButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2213D23A8F6840007EE11 /* AddPaperButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180590E423A66BB000F2E78D /* PaperCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCardView.swift; sourceTree = "<group>"; };
 		18096CD2238B6FCC006CE363 /* iPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18096CD5238B6FCC006CE363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18096CD7238B6FCC006CE363 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18096CD9238B6FCC006CE363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18096CDB238B6FCE006CE363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18096CDE238B6FCE006CE363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18096CE1238B6FCF006CE363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18096CE3238B6FCF006CE363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18096CE9238B7571006CE363 /* AttributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeView.swift; sourceTree = "<group>"; };
 		18096CEB238B7AB9006CE363 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		181E38EC23AE367700B092E8 /* RightToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToolBarView.swift; sourceTree = "<group>"; };
+		181E38EE23AE55DD00B092E8 /* OkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkButtonView.swift; sourceTree = "<group>"; };
+		181E38F023AE5ABB00B092E8 /* UserGuidePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGuidePageView.swift; sourceTree = "<group>"; };
+		1821512423A5069F003DB8D9 /* EditTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTabView.swift; sourceTree = "<group>"; };
 		1824FFD5239D1C8E00983DA4 /* NewPaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPaperView.swift; sourceTree = "<group>"; };
 		1824FFD7239D24F600983DA4 /* EditPaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPaperView.swift; sourceTree = "<group>"; };
 		1824FFD9239D26F700983DA4 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		1824FFDB239D27FB00983DA4 /* EditAttributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAttributeView.swift; sourceTree = "<group>"; };
+		184A3F2323A724330046D90E /* PaperDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaperDataModel.xcdatamodel; sourceTree = "<group>"; };
 		1897E42F239BB8E3001BC645 /* ConstValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstValues.swift; sourceTree = "<group>"; };
 		1897E431239BD90D001BC645 /* PaperListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperListView.swift; sourceTree = "<group>"; };
 		1897E433239BDA58001BC645 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		1897E435239BDDE7001BC645 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		1897E437239BE6BE001BC645 /* Paper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper.swift; sourceTree = "<group>"; };
 		1897E439239BE9BC001BC645 /* PaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperView.swift; sourceTree = "<group>"; };
+		18998EB423AF560E00451E9A /* PaperStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperStore.swift; sourceTree = "<group>"; };
+		18998EB623AF905700451E9A /* PlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderView.swift; sourceTree = "<group>"; };
+		18998EB823AFAC5300451E9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A9E855238D5835004B7A1F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		18A9E857238D5C29004B7A1F /* interface.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = interface.json; sourceTree = "<group>"; };
 		18A9E859238D5C9B004B7A1F /* ReadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJson.swift; sourceTree = "<group>"; };
+		18E2213D23A8F6840007EE11 /* AddPaperButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaperButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +108,6 @@
 				18096CD7238B6FCC006CE363 /* SceneDelegate.swift */,
 				18096CD9238B6FCC006CE363 /* ContentView.swift */,
 				18096CDB238B6FCE006CE363 /* Assets.xcassets */,
-				18096CE0238B6FCF006CE363 /* LaunchScreen.storyboard */,
 				18096CE3238B6FCF006CE363 /* Info.plist */,
 				18096CDD238B6FCE006CE363 /* Preview Content */,
 				18096CE9238B7571006CE363 /* AttributeView.swift */,
@@ -100,14 +117,24 @@
 				18A9E859238D5C9B004B7A1F /* ReadJson.swift */,
 				1897E42F239BB8E3001BC645 /* ConstValues.swift */,
 				1897E431239BD90D001BC645 /* PaperListView.swift */,
+				18998EB623AF905700451E9A /* PlaceHolderView.swift */,
+				181E38F023AE5ABB00B092E8 /* UserGuidePageView.swift */,
 				1897E433239BDA58001BC645 /* Info.swift */,
 				1897E435239BDDE7001BC645 /* TestData.swift */,
 				1897E437239BE6BE001BC645 /* Paper.swift */,
+				18998EB423AF560E00451E9A /* PaperStore.swift */,
 				1897E439239BE9BC001BC645 /* PaperView.swift */,
 				1824FFD5239D1C8E00983DA4 /* NewPaperView.swift */,
 				1824FFD7239D24F600983DA4 /* EditPaperView.swift */,
 				1824FFD9239D26F700983DA4 /* EditView.swift */,
 				1824FFDB239D27FB00983DA4 /* EditAttributeView.swift */,
+				1821512423A5069F003DB8D9 /* EditTabView.swift */,
+				180590E423A66BB000F2E78D /* PaperCardView.swift */,
+				181E38EC23AE367700B092E8 /* RightToolBarView.swift */,
+				184A3F2223A724330046D90E /* PaperDataModel.xcdatamodeld */,
+				18E2213D23A8F6840007EE11 /* AddPaperButtonView.swift */,
+				181E38EE23AE55DD00B092E8 /* OkButtonView.swift */,
+				18998EB823AFAC5300451E9A /* LaunchScreen.storyboard */,
 			);
 			path = iPaper;
 			sourceTree = "<group>";
@@ -178,8 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18096CE2238B6FCF006CE363 /* LaunchScreen.storyboard in Resources */,
 				18096CDF238B6FCE006CE363 /* Preview Assets.xcassets in Resources */,
+				18998EB923AFAC5300451E9A /* LaunchScreen.storyboard in Resources */,
 				18096CDC238B6FCE006CE363 /* Assets.xcassets in Resources */,
 				18A9E858238D5C29004B7A1F /* interface.json in Resources */,
 			);
@@ -193,17 +220,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				18096CD6238B6FCC006CE363 /* AppDelegate.swift in Sources */,
+				184A3F2423A724330046D90E /* PaperDataModel.xcdatamodeld in Sources */,
 				1897E43A239BE9BC001BC645 /* PaperView.swift in Sources */,
 				1897E430239BB8E3001BC645 /* ConstValues.swift in Sources */,
 				1824FFDC239D27FB00983DA4 /* EditAttributeView.swift in Sources */,
 				18096CEA238B7571006CE363 /* AttributeView.swift in Sources */,
 				1897E436239BDDE7001BC645 /* TestData.swift in Sources */,
 				18096CD8238B6FCC006CE363 /* SceneDelegate.swift in Sources */,
+				18998EB723AF905800451E9A /* PlaceHolderView.swift in Sources */,
+				18E2213E23A8F6840007EE11 /* AddPaperButtonView.swift in Sources */,
+				181E38ED23AE367700B092E8 /* RightToolBarView.swift in Sources */,
 				1824FFD8239D24F600983DA4 /* EditPaperView.swift in Sources */,
+				1821512523A5069F003DB8D9 /* EditTabView.swift in Sources */,
 				1897E432239BD90D001BC645 /* PaperListView.swift in Sources */,
+				181E38EF23AE55DD00B092E8 /* OkButtonView.swift in Sources */,
 				18096CEC238B7AB9006CE363 /* PhotoView.swift in Sources */,
 				1824FFD6239D1C8E00983DA4 /* NewPaperView.swift in Sources */,
 				1824FFDA239D26F700983DA4 /* EditView.swift in Sources */,
+				18998EB523AF560E00451E9A /* PaperStore.swift in Sources */,
+				180590E523A66BB000F2E78D /* PaperCardView.swift in Sources */,
+				181E38F123AE5ABC00B092E8 /* UserGuidePageView.swift in Sources */,
 				18096CDA238B6FCC006CE363 /* ContentView.swift in Sources */,
 				1897E438239BE6BE001BC645 /* Paper.swift in Sources */,
 				18A9E85A238D5C9B004B7A1F /* ReadJson.swift in Sources */,
@@ -213,17 +249,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		18096CE0238B6FCF006CE363 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18096CE1238B6FCF006CE363 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18096CE4238B6FCF006CE363 /* Debug */ = {
@@ -400,6 +425,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		184A3F2223A724330046D90E /* PaperDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				184A3F2323A724330046D90E /* PaperDataModel.xcdatamodel */,
+			);
+			currentVersion = 184A3F2323A724330046D90E /* PaperDataModel.xcdatamodel */;
+			path = PaperDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18096CCA238B6FCC006CE363 /* Project object */;
 }

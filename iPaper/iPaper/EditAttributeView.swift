@@ -10,7 +10,7 @@ import SwiftUI
 
 struct EditAttributeView: View {
     var attributeName:String
-    @State var attributeValue:String
+    @Binding var attributeValue:String
     var body: some View {
         HStack{
             Text(attributeName)
@@ -19,11 +19,12 @@ struct EditAttributeView: View {
             .padding(DEFAULT_PADDING)
             .border(Color.black)
         }
+        .padding(.horizontal)
     }
 }
 
-struct EditAttributeView_Previews: PreviewProvider {
-    static var previews: some View {
-        EditAttributeView(attributeName: "text", attributeValue: "")
-    }
-}
+//struct EditAttributeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        EditAttributeView(attributeName: "text", attributeValue: "")
+//    }
+//}

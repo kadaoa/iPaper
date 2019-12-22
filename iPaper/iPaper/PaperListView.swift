@@ -9,31 +9,44 @@
 import SwiftUI
 
 struct PaperListView: View {
+    @EnvironmentObject var paperStore:PaperStore
+    @State var isBlur:Bool = false
     var body: some View {
         NavigationView{
-            List(paperData){ paper in
-                NavigationLink(destination: EditPaperView(paper: paper)){
-                    PaperView(paper: paper)
+            ZStack{
+                
+                
+                List{
+                    ForEach(paperStore.data){ paper in
+                        NavigationLink(destination: EditPaperView(paper: paper)){
+                            PaperCardView(paper:paper)
+                        }
+                    }
+                    .onDelete(perform: { index in
+                        self.paperStore.data.remove(at: index.first!)
+                    })
+                    .blur(radius: self.isBlur ? 10 : 0)
+                        
+                }
+                .navigationBarTitle(Text("iPaper"),displayMode: .large)
+                if paperStore.data.count == 0{
+                    PlaceHolderView()
                 }
                 
+                NewPaperView(isActive: $isBlur)
             }
-            .navigationBarTitle(Text("iPaper"), displayMode: .inline)
-                    .navigationBarItems(leading: Button(action:{
-                        print("left")
-                    }){
-                        Image(systemName: "person.circle")
-                        
-                    },trailing: Button(action:{
-                        print("right")
-                    }){
-                        Image(systemName: "plus")
-                    })
         }
+        .animation(.spring())
     }
 }
+
+
+
+
 
 struct PaperListView_Previews: PreviewProvider {
     static var previews: some View {
         PaperListView()
+            .environmentObject(PaperStore())
     }
 }

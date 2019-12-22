@@ -11,7 +11,7 @@ import SwiftUI
 struct PhotoView: View {
     var body: some View {
         Image(systemName: "star")
-        .frame(width: 45, height: 45)
+        .frame(width: 40, height: 40)
             .border(Color.black)
     }
 }
